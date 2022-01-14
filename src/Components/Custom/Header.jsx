@@ -9,9 +9,9 @@ const Header = ({ cart }) => {
   return (
     <header
       className="grid grid-cols-3 flex items-center fixed w-screen h-20 bg-blueSoft font-serif font-medium 
-      text-xl md:text-2xl text-white"
+      text-lg sm:text-xl md:text-2xl text-white"
     >
-      <h2 className="ml-4 md:ml-10 font-bold text-2xl md:text-3xl hover:text-yellow">
+      <h2 className="ml-4 md:ml-10 font-bold text-xl sm:text-2xl md:text-3xl hover:text-yellow">
         <Link to="/">NEEVO</Link>
       </h2>
 
@@ -26,10 +26,10 @@ const Header = ({ cart }) => {
 
         <Link
           to="/cart"
-          className="mx-6 md:mx-10 px-0.5 md:px-1 bg-white hover:bg-yellow font-sans text-blueSoft hover:text-white 
+          className="mx-2 md:mx-10 px-0.5 md:px-1 bg-white hover:bg-yellow font-sans text-blueSoft hover:text-white 
           rounded-lg transition duration-300"
         >
-          <p className="text-right">{cart.length}</p>
+          <p className="font-bold text-right text-2xl">{cart.length}</p>
           <img src={cartImg} alt="Cart" />
         </Link>
       </div>

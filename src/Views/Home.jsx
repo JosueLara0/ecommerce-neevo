@@ -19,12 +19,15 @@ const Home = () => {
           {/* Banner */}
           <div className="flex flex-col items-center w-full py-8 bg-yellow">
             <h2 className="font-serif font-semibold text-2xl md:text-4xl text-white">
-              <span className="font-bold font-serif text-7xl">NEEVO</span> Store
+              <span className="font-bold font-serif text-5xl sm:text-7xl">
+                NEEVO
+              </span>{" "}
+              Store
             </h2>
             <p className="font-semibold text-xl md:text-2xl text-white">
               In-line with online retail
             </p>
-            <p className="pt-2 font-semibold text-xl md:text-2xl text-blueSoft">
+            <p className="w-11/12 pt-2 font-semibold text-center text-lg sm:text-xl md:text-2xl text-blueSoft">
               FREE SHIPPING on all orders over $60
             </p>
           </div>

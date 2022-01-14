@@ -33,7 +33,7 @@ const Payment = () => {
         <p className="p-4 font-bold text-2xl text-center">
           Payment Method:{" "}
           <select
-            className="border-2 text-blueSoft"
+            className="border-2 text-base sm:text-xl text-blueSoft"
             name={payMethod}
             onChange={handlePayMethod}
           >
