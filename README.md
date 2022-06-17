@@ -9,10 +9,17 @@ Includes:
 3.  Shopping cart.
 4.  Payment simulation.
 
+# Deployment
+
+VERCEL: 
+
+[LINK](https://ecommerce-neevo.vercel.app/)
+
 ## Libraries
 
 1.  [REACT](https://en.reactjs.org/)
-2.  [TAILWIND CSS](https://tailwindcss.com/docs/guides/create-react-app)
+2.  [REACT ROUTER](https://reactrouter.com/)
+3.  [TAILWIND CSS](https://tailwindcss.com/docs/guides/create-react-app)
 
 ## Screenshots
 
@@ -29,4 +36,4 @@ Mobile version:
 1. Clone repo.
 2. Install modules `npm install`.
 3. Setting up Tailwind CSS (check documentation link).
-3. Run project `npm start`.
+4. Run project `npm start`.
